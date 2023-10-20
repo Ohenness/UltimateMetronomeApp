@@ -25,6 +25,9 @@
 		847F243E2AE2DA6B0007380F /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 847F243D2AE2DA6B0007380F /* FirebaseAnalyticsSwift */; };
 		847F24402AE2DA6B0007380F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 847F243F2AE2DA6B0007380F /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		847F24422AE2DA6B0007380F /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 847F24412AE2DA6B0007380F /* FirebaseAppCheck */; };
+		847F24442AE2E86E0007380F /* DatabaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F24432AE2E86E0007380F /* DatabaseUIView.swift */; };
+		847F24452AE2E86E0007380F /* DatabaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F24432AE2E86E0007380F /* DatabaseUIView.swift */; };
+		847F24462AE2E86E0007380F /* DatabaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F24432AE2E86E0007380F /* DatabaseUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 		847F24302AD105C60007380F /* Metronome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Metronome.mp3; sourceTree = "<group>"; };
 		847F24322AE23B440007380F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "Xcode Demo/ViewController.swift"; sourceTree = SOURCE_ROOT; };
 		847F24342AE2D9410007380F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		847F24432AE2E86E0007380F /* DatabaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 				847F24322AE23B440007380F /* ViewController.swift */,
 				847F23FE2AD093A60007380F /* ContentView.swift */,
 				847F24002AD093A60007380F /* Item.swift */,
+				847F24432AE2E86E0007380F /* DatabaseUIView.swift */,
 				847F24022AD093A70007380F /* Assets.xcassets */,
 				847F24342AE2D9410007380F /* GoogleService-Info.plist */,
 				847F24042AD093A70007380F /* Preview Content */,
@@ -245,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 847F23F42AD093A60007380F /* Build configuration list for PBXProject "Xcode Demo" */;
+			buildConfigurationList = 847F23F42AD093A60007380F /* Build configuration list for PBXProject "UltimateMetronomeApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -303,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847F24442AE2E86E0007380F /* DatabaseUIView.swift in Sources */,
 				847F23FF2AD093A60007380F /* ContentView.swift in Sources */,
 				847F24012AD093A60007380F /* Item.swift in Sources */,
 				847F24332AE23B440007380F /* ViewController.swift in Sources */,
@@ -315,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				847F24102AD093A70007380F /* Xcode_DemoTests.swift in Sources */,
+				847F24452AE2E86E0007380F /* DatabaseUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847F24462AE2E86E0007380F /* DatabaseUIView.swift in Sources */,
 				847F241A2AD093A70007380F /* Xcode_DemoUITests.swift in Sources */,
 				847F241C2AD093A70007380F /* Xcode_DemoUITestsLaunchTests.swift in Sources */,
 			);
@@ -599,7 +607,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		847F23F42AD093A60007380F /* Build configuration list for PBXProject "Xcode Demo" */ = {
+		847F23F42AD093A60007380F /* Build configuration list for PBXProject "UltimateMetronomeApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				847F241D2AD093A70007380F /* Debug */,

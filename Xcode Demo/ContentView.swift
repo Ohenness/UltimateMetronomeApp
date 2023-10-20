@@ -45,8 +45,15 @@ struct ContentView: View {
             
             isPlaying.toggle()
         }.buttonStyle(.bordered).labelStyle(.iconOnly)
+        
+        TabView {
+           Text("The content of the first view")
+             .tabItem {
+                Image(systemName: "phone.fill")
+                Text("First Tab")
+              }
+        }
     }
-    
     
     
     func bpmDisplay(bpm:Int) -> Text {
@@ -59,7 +66,7 @@ struct ContentView: View {
         do {
             player = try AVAudioPlayer(contentsOf: url)
             player?.volume = 1.0
-            player?.rate = 2.0
+            player?.rate = Float(bpm)
             player?.numberOfLoops = -1
         } catch let error {
             print("Error playing sound. \(error.localizedDescription)")
