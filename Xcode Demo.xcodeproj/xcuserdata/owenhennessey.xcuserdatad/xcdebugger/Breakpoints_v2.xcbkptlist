@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "829A98F8-27C5-4DDC-9B98-E23453878842"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33A8C606-E05C-419D-B64A-1678CC8BFF87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Xcode Demo/Xcode_DemoApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "33A8C606-E05C-419D-B64A-1678CC8BFF87 - dcc0c4f53bd297b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Xcode_Demo.Xcode_DemoApp.body.getter : some"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/Xcode%20Demo/Xcode_DemoApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "33A8C606-E05C-419D-B64A-1678CC8BFF87 - 94f224024cf6496e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Xcode_Demo.ContentView in Xcode_Demo.Xcode_DemoApp.body.getter : some"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/Xcode%20Demo/Xcode_DemoApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "33A8C606-E05C-419D-B64A-1678CC8BFF87 - dcc0c4f53bd297b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Xcode_Demo.Xcode_DemoApp.body.getter : some"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/Xcode%20Demo/Xcode_DemoApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "33A8C606-E05C-419D-B64A-1678CC8BFF87 - 94f224024cf6496e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Xcode_Demo.ContentView in Xcode_Demo.Xcode_DemoApp.body.getter : some"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/Xcode%20Demo/Xcode_DemoApp.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FBD750EB-5EFE-430F-A013-EA6A89C44161"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Xcode Demo/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

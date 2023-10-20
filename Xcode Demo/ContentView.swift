@@ -7,53 +7,100 @@
 
 import SwiftUI
 import SwiftData
+import AVFAudio
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
-
+    
+    @State var bpm = 140;
+    @State var beatsPerMeasure = 4
+    @State var player: AVAudioPlayer?
+    @State var isPlaying = false
+    
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
+        
+        HStack {
+            Spacer()
+            Button("-") {
+                decTempo()
+            }.padding(.leading, 15.0)
+            Spacer()
+            bpmDisplay(bpm: bpm)
+            Spacer()
+            Button("+") {
+                incTempo()
+            }.padding(.trailing, 15.0)
+            Spacer()
+        }.padding()
+        
+        Button("Start", systemImage: "play") {
+            if isPlaying {
+                player?.pause()
+                
+            } else {
+                createAudio()
+                player?.play()
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-        } detail: {
-            Text("Select an item")
+            
+            isPlaying.toggle()
+        }.buttonStyle(.bordered).labelStyle(.iconOnly)
+    }
+    
+    
+    
+    func bpmDisplay(bpm:Int) -> Text {
+        return Text(bpm.codingKey.stringValue + " bpm")
+            .font(.largeTitle)
+    }
+    
+    func createAudio() {
+        guard let url = Bundle.main.url(forResource: "Metronome", withExtension: ".mp3") else { return }
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player?.volume = 1.0
+            player?.rate = 2.0
+            player?.numberOfLoops = -1
+        } catch let error {
+            print("Error playing sound. \(error.localizedDescription)")
         }
     }
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
+    func tempo() {
+        
     }
 
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
-        }
+    func tempoSettings() {
+        
+    }
+
+    func incTempo() {
+        bpm += 1
+        print("Increase tempo")
+    }
+
+    func decTempo() {
+        bpm -= 1
+        print("Decrease tempo")
+    }
+
+    func measures() {
+        
+    }
+
+    func addBeats() {
+        
+    }
+
+    func subtractBeats() {
+        
+    }
+
+    func measureCount() {
+        
     }
 }
+
 
 #Preview {
     ContentView()

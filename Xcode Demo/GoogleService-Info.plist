@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBx-xAqGKT3stTBle_wjEZmu27c3sQYRNw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>524682239848</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.onthetopshelf.UltimateMetronomeApp</string>
+	<key>PROJECT_ID</key>
+	<string>mobile-app-dev-c4d59</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mobile-app-dev-c4d59.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:524682239848:ios:61459ec6c9be77dc7600dd</string>
+	<key>DATABASE_URL</key>
+	<string>https://mobile-app-dev-c4d59-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
