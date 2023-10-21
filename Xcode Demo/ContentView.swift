@@ -17,41 +17,120 @@ struct ContentView: View {
     @State var beatsPerMeasure = 4
     @State var player: AVAudioPlayer?
     @State var isPlaying = false
+    @State var show = ""
+    @State var part = ""
+    @State var song = ""
+    @State var tempo = ""
     
     var body: some View {
-        
-        HStack {
-            Spacer()
-            Button("-") {
-                decTempo()
-            }.padding(.leading, 15.0)
-            Spacer()
-            bpmDisplay(bpm: bpm)
-            Spacer()
-            Button("+") {
-                incTempo()
-            }.padding(.trailing, 15.0)
-            Spacer()
-        }.padding()
-        
-        Button("Start", systemImage: "play") {
-            if isPlaying {
-                player?.pause()
-                
-            } else {
-                createAudio()
-                player?.play()
+        TabView {
+            VStack {
+                HStack {
+                    Spacer()
+                    Button("-") {
+                        decTempo()
+                    }.padding(.leading, 15.0)
+                    Spacer()
+                    bpmDisplay(bpm: bpm)
+                    Spacer()
+                    Button("+") {
+                        incTempo()
+                    }.padding(.trailing, 15.0)
+                    Spacer()
+                }.padding()
+            
+                Button("Start", systemImage: "play") {
+                    if isPlaying {
+                        player?.pause()
+                        print("Pause metronome playback")
+                    } else {
+                        createAudio()
+                        player?.play()
+                        print("Start metronome playback")
+                    }
+                    
+                    isPlaying.toggle()
+                }.buttonStyle(.bordered).labelStyle(.iconOnly)
+            }.tabItem {
+                Image(systemName: "metronome")
+                Text("Metronome")
+            }
+            VStack {
+                Spacer()
+                Text("Create").font(.title)
+                Form {
+                    Section {
+                        TextField("Show", text: $show)
+                    } header: {
+                        Text("Show")
+                    }
+                    Section {
+                        TextField("Part", text: $part)
+                    } header: {
+                        Text("Part")
+                    }
+                    Section {
+                        TextField("Song", text: $song)
+                    } header: {
+                        Text("Song")
+                    }
+                    Section {
+                        TextField("Tempo", text: $tempo)
+                    } header: {
+                        Text("Tempo")
+                    }
+                }
+                HStack {
+                    Button("Create") {
+                        show = show
+                        part = part
+                        song = song
+                        tempo = tempo
+                        print("Varibles assigned")
+                        print("Show: \(show)")
+                        print("Part: \(part)")
+                        print("Song: \(song)")
+                        print("Tempo: \(tempo)")
+
+                        FIRFirestoreService.shared.create(show: show, part: part, song: song, tempo: (tempo as NSString) .integerValue )
+                        
+                    }.padding(.horizontal)
+                    Button("Read") {
+                        FIRFirestoreService.shared.read()
+                    }.padding(.horizontal)
+                    Button("Update") {
+                        show = show
+                        part = part
+                        song = song
+                        tempo = tempo
+                        print("Varibles updated")
+                        print("Show: \(show)")
+                        print("Part: \(part)")
+                        print("Song: \(song)")
+                        print("Tempo: \(tempo)")
+
+                        FIRFirestoreService.shared.update(show: show, part: part, song: song, tempo: (tempo as NSString) .integerValue )
+                    }.padding(.horizontal)
+                    Button("Delete") {
+                        FIRFirestoreService.shared.delete()
+                    }.padding(.horizontal)
+                }
+            }
+            .tabItem {
+                Image(systemName: "firewall")
+                Text("CRUD")
             }
             
-            isPlaying.toggle()
-        }.buttonStyle(.bordered).labelStyle(.iconOnly)
-        
-        TabView {
-           Text("The content of the first view")
-             .tabItem {
-                Image(systemName: "phone.fill")
-                Text("First Tab")
-              }
+//            VStack {
+//                Text("Read").font(.title)
+//                Spacer()
+//                Button("Read") {
+//                    FIRFirestoreService.shared.read()
+//                }.padding(.bottom)
+//            }.tabItem {
+//                Image(systemName: "firewall")
+//                Text("Read")
+//            }
         }
     }
     
@@ -73,14 +152,6 @@ struct ContentView: View {
         }
     }
 
-    func tempo() {
-        
-    }
-
-    func tempoSettings() {
-        
-    }
-
     func incTempo() {
         bpm += 1
         print("Increase tempo")
@@ -89,22 +160,6 @@ struct ContentView: View {
     func decTempo() {
         bpm -= 1
         print("Decrease tempo")
-    }
-
-    func measures() {
-        
-    }
-
-    func addBeats() {
-        
-    }
-
-    func subtractBeats() {
-        
-    }
-
-    func measureCount() {
-        
     }
 }
 
