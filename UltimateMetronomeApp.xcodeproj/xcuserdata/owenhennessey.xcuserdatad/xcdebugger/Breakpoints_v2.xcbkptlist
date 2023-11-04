@@ -85,65 +85,220 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CD9DA967-3634-4A9F-949E-A48836EA358E"
+            uuid = "B4CC5859-CD0D-4EA9-A951-CE444BD36141"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Xcode Demo/ContentView.swift"
+            filePath = "Xcode Demo/CreateView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
-            landmarkName = "bpmDisplay(bpm:)"
-            landmarkType = "7">
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "CreateView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "B4CC5859-CD0D-4EA9-A951-CE444BD36141 - 70ebfee0306f237f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Xcode_Demo.CreateView.newShow : Xcode_Demo.Show"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/Xcode%20Demo/CreateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "B4CC5859-CD0D-4EA9-A951-CE444BD36141 - 50a953ef0672122f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Xcode_Demo.CreateView.newShow.getter : Xcode_Demo.Show"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "B4CC5859-CD0D-4EA9-A951-CE444BD36141 - 2dece25f3b9de61b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Xcode_Demo.CreateView.newShow.setter : Xcode_Demo.Show"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "B4CC5859-CD0D-4EA9-A951-CE444BD36141 - cba162a26db62f2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Xcode_Demo.CreateView.newShow.modify : Xcode_Demo.Show"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "B4CC5859-CD0D-4EA9-A951-CE444BD36141 - 3572136b5067bd1b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Xcode_Demo.CreateView.newShow.modify : Xcode_Demo.Show with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "B4CC5859-CD0D-4EA9-A951-CE444BD36141 - 150c2e5377b28153"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Xcode_Demo.CreateView.$newShow.getter : SwiftUI.Binding&lt;Xcode_Demo.Show&gt;"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "B4CC5859-CD0D-4EA9-A951-CE444BD36141 - 5a3adddf1719fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 4 of Xcode_Demo.CreateView.init(show: Swift.String, part: Swift.String, song: Swift.String, tempo: Swift.String, newShow: Xcode_Demo.Show) -&gt; Xcode_Demo.CreateView"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3B9EEC1A-94BA-4ECF-9B59-0B1AA130AB3C"
+            uuid = "452FA6A1-BCF5-4490-9C9B-A035E003DA17"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Xcode Demo/ContentView.swift"
+            filePath = "Xcode Demo/CreateView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "createAudio()"
-            landmarkType = "7">
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "0F97646A-2816-4211-A339-8150B9C8D533"
+            uuid = "0B19377C-2EA7-45EA-BBBA-2393BDA789F6"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Xcode Demo/ContentView.swift"
+            filePath = "Xcode Demo/CreateView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
-            landmarkName = "incTempo()"
-            landmarkType = "7">
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0B19377C-2EA7-45EA-BBBA-2393BDA789F6 - 94f0dd5b7ce910c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Xcode_Demo.CreateView.body.getter : some"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/Xcode%20Demo/CreateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  uuid = "0B19377C-2EA7-45EA-BBBA-2393BDA789F6 - ef77284bb67656e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.Form&lt;SwiftUI.TupleView&lt;(SwiftUI.Section&lt;SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt;, SwiftUI.Section&lt;SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.textFieldStyle&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.TextFieldStyle&gt;(&#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.EmptyView&gt;)&gt;&gt; in Xcode_Demo.CreateView.body.getter : some"
+                  moduleName = "Xcode Demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/owenhennessey/Desktop/Xcode%20Demo/Xcode%20Demo/CreateView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BC529544-61EF-45BD-8024-6CA1D9230E86"
+            uuid = "19B21C8A-4DD3-41C5-A12B-2B08737E02F0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Xcode Demo/ContentView.swift"
+            filePath = "Xcode Demo/CreateView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "160"
-            endingLineNumber = "160"
-            landmarkName = "decTempo()"
-            landmarkType = "7">
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A834DD5C-3904-4DF2-86E5-3AE188C3F634"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Xcode Demo/CreateView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

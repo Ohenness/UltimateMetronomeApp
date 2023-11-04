@@ -25,7 +25,7 @@ struct UltimateMetronomeApp: App {
 
   var body: some Scene {
     WindowGroup {
-        ContentView()
+        ContentView().navigationTitle("Ultimate Metronome")
     }
   }
 }

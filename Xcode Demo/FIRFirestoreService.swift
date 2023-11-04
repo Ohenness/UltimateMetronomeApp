@@ -24,25 +24,30 @@ class FIRFirestoreService {
     }
     
     func create(show: String, part: String, song: String, tempo: Int) {
-        let parameters: [String: Any] = ["Show": show, "Part": part, "Song": song, "Tempo": tempo]
+        let parameters: [String: Any] = ["Song": song, "Tempo": tempo]
         
-        reference(to: "Shows").addDocument(data: parameters)
+        reference(to: show).document(part).setData(parameters)
     }
     
-    func read() {
-        reference(to: "Shows").addSnapshotListener { (snapshot, _) in
+    func read(show: String) {
+        reference(to: show).addSnapshotListener { (snapshot, _) in
             guard let snapshot = snapshot else { return }
             for document in snapshot.documents {
                 print(document.data())
+            }
+            if (snapshot.documents.isEmpty) {
+                print("Show not found")
             }
         }
     }
     
     func update(show: String, part: String, song: String, tempo: Int) {
-        reference(to: "Shows").document("xNEXYLCh90I9n1rUHSYl").setData(["Show": show, "Part": part, "Song": song, "Tempo": tempo])
+        let parameters: [String: Any] = ["Song": song, "Tempo": tempo]
+
+        reference(to: show).document(part).setData(parameters)
     }
     
-    func delete() {
-        reference(to: "Shows").document("xNEXYLCh90I9n1rUHSYl").delete()
+    func delete(show: String, part: String, song: String, tempo: Int) {
+        reference(to: show).document(part).delete()
     }
 }

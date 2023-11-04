@@ -37,6 +37,27 @@
 		84F4E3DF2AE372C8000DBEA7 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84F4E3DE2AE372C8000DBEA7 /* FirebaseAnalyticsSwift */; };
 		84F4E3E12AE372CF000DBEA7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 84F4E3E02AE372CF000DBEA7 /* FirebaseFirestoreSwift */; };
 		84F4E3E32AE37335000DBEA7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 84F4E3E22AE37335000DBEA7 /* FirebaseFirestore */; };
+		84F4E3E52AF42045000DBEA7 /* CRUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3E42AF42045000DBEA7 /* CRUDView.swift */; };
+		84F4E3E62AF42045000DBEA7 /* CRUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3E42AF42045000DBEA7 /* CRUDView.swift */; };
+		84F4E3E72AF42045000DBEA7 /* CRUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3E42AF42045000DBEA7 /* CRUDView.swift */; };
+		84F4E3E92AF42CAD000DBEA7 /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3E82AF42CAD000DBEA7 /* MetronomeView.swift */; };
+		84F4E3EA2AF42CAD000DBEA7 /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3E82AF42CAD000DBEA7 /* MetronomeView.swift */; };
+		84F4E3EB2AF42CAD000DBEA7 /* MetronomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3E82AF42CAD000DBEA7 /* MetronomeView.swift */; };
+		84F4E3ED2AF57075000DBEA7 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3EC2AF57075000DBEA7 /* CreateView.swift */; };
+		84F4E3EE2AF57075000DBEA7 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3EC2AF57075000DBEA7 /* CreateView.swift */; };
+		84F4E3EF2AF57075000DBEA7 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3EC2AF57075000DBEA7 /* CreateView.swift */; };
+		84F4E3F12AF57080000DBEA7 /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3F02AF57080000DBEA7 /* ReadView.swift */; };
+		84F4E3F22AF57080000DBEA7 /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3F02AF57080000DBEA7 /* ReadView.swift */; };
+		84F4E3F32AF57080000DBEA7 /* ReadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3F02AF57080000DBEA7 /* ReadView.swift */; };
+		84F4E3F52AF5708B000DBEA7 /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3F42AF5708B000DBEA7 /* UpdateView.swift */; };
+		84F4E3F62AF5708B000DBEA7 /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3F42AF5708B000DBEA7 /* UpdateView.swift */; };
+		84F4E3F72AF5708B000DBEA7 /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3F42AF5708B000DBEA7 /* UpdateView.swift */; };
+		84F4E3F92AF57099000DBEA7 /* DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3F82AF57099000DBEA7 /* DeleteView.swift */; };
+		84F4E3FA2AF57099000DBEA7 /* DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3F82AF57099000DBEA7 /* DeleteView.swift */; };
+		84F4E3FB2AF57099000DBEA7 /* DeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3F82AF57099000DBEA7 /* DeleteView.swift */; };
+		84F4E3FD2AF5CD8F000DBEA7 /* ShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3FC2AF5CD8F000DBEA7 /* ShowView.swift */; };
+		84F4E3FE2AF5CD8F000DBEA7 /* ShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3FC2AF5CD8F000DBEA7 /* ShowView.swift */; };
+		84F4E3FF2AF5CD8F000DBEA7 /* ShowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4E3FC2AF5CD8F000DBEA7 /* ShowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +94,13 @@
 		847F24342AE2D9410007380F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		847F24432AE2E86E0007380F /* DatabaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseUIView.swift; sourceTree = "<group>"; };
 		84F4E3D32AE36F8C000DBEA7 /* FIRFirestoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIRFirestoreService.swift; sourceTree = "<group>"; };
+		84F4E3E42AF42045000DBEA7 /* CRUDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDView.swift; sourceTree = "<group>"; };
+		84F4E3E82AF42CAD000DBEA7 /* MetronomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeView.swift; sourceTree = "<group>"; };
+		84F4E3EC2AF57075000DBEA7 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		84F4E3F02AF57080000DBEA7 /* ReadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadView.swift; sourceTree = "<group>"; };
+		84F4E3F42AF5708B000DBEA7 /* UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
+		84F4E3F82AF57099000DBEA7 /* DeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteView.swift; sourceTree = "<group>"; };
+		84F4E3FC2AF5CD8F000DBEA7 /* ShowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,11 +142,11 @@
 		847F23F02AD093A60007380F = {
 			isa = PBXGroup;
 			children = (
+				84F4E3D72AE37286000DBEA7 /* Frameworks */,
+				847F23FA2AD093A60007380F /* Products */,
 				847F23FB2AD093A60007380F /* Xcode Demo */,
 				847F240E2AD093A70007380F /* Xcode DemoTests */,
 				847F24182AD093A70007380F /* Xcode DemoUITests */,
-				847F23FA2AD093A60007380F /* Products */,
-				84F4E3D72AE37286000DBEA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,16 +163,22 @@
 		847F23FB2AD093A60007380F /* Xcode Demo */ = {
 			isa = PBXGroup;
 			children = (
-				847F242F2AD105860007380F /* Sounds */,
-				847F23FC2AD093A60007380F /* UltimateMetronomeApp.swift */,
-				847F24322AE23B440007380F /* ViewController.swift */,
-				847F23FE2AD093A60007380F /* ContentView.swift */,
-				847F24002AD093A60007380F /* Item.swift */,
-				847F24432AE2E86E0007380F /* DatabaseUIView.swift */,
 				847F24022AD093A70007380F /* Assets.xcassets */,
-				847F24342AE2D9410007380F /* GoogleService-Info.plist */,
-				847F24042AD093A70007380F /* Preview Content */,
+				847F23FE2AD093A60007380F /* ContentView.swift */,
+				84F4E3EC2AF57075000DBEA7 /* CreateView.swift */,
+				847F24432AE2E86E0007380F /* DatabaseUIView.swift */,
+				84F4E3F82AF57099000DBEA7 /* DeleteView.swift */,
 				84F4E3D32AE36F8C000DBEA7 /* FIRFirestoreService.swift */,
+				847F24002AD093A60007380F /* Item.swift */,
+				84F4E3E82AF42CAD000DBEA7 /* MetronomeView.swift */,
+				84F4E3F02AF57080000DBEA7 /* ReadView.swift */,
+				84F4E3E42AF42045000DBEA7 /* CRUDView.swift */,
+				847F23FC2AD093A60007380F /* UltimateMetronomeApp.swift */,
+				84F4E3F42AF5708B000DBEA7 /* UpdateView.swift */,
+				847F24322AE23B440007380F /* ViewController.swift */,
+				847F24042AD093A70007380F /* Preview Content */,
+				847F242F2AD105860007380F /* Sounds */,
+				84F4E3FC2AF5CD8F000DBEA7 /* ShowView.swift */,
 			);
 			path = "Xcode Demo";
 			sourceTree = "<group>";
@@ -152,6 +186,7 @@
 		847F24042AD093A70007380F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				847F24342AE2D9410007380F /* GoogleService-Info.plist */,
 				847F24052AD093A70007380F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -342,11 +377,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				847F24442AE2E86E0007380F /* DatabaseUIView.swift in Sources */,
+				84F4E3ED2AF57075000DBEA7 /* CreateView.swift in Sources */,
+				84F4E3F12AF57080000DBEA7 /* ReadView.swift in Sources */,
+				84F4E3F52AF5708B000DBEA7 /* UpdateView.swift in Sources */,
 				84F4E3D42AE36F8C000DBEA7 /* FIRFirestoreService.swift in Sources */,
 				847F23FF2AD093A60007380F /* ContentView.swift in Sources */,
+				84F4E3E52AF42045000DBEA7 /* CRUDView.swift in Sources */,
 				847F24012AD093A60007380F /* Item.swift in Sources */,
+				84F4E3FD2AF5CD8F000DBEA7 /* ShowView.swift in Sources */,
 				847F24332AE23B440007380F /* ViewController.swift in Sources */,
+				84F4E3F92AF57099000DBEA7 /* DeleteView.swift in Sources */,
 				847F23FD2AD093A60007380F /* UltimateMetronomeApp.swift in Sources */,
+				84F4E3E92AF42CAD000DBEA7 /* MetronomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +396,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F4E3FA2AF57099000DBEA7 /* DeleteView.swift in Sources */,
 				847F24102AD093A70007380F /* Xcode_DemoTests.swift in Sources */,
+				84F4E3F62AF5708B000DBEA7 /* UpdateView.swift in Sources */,
+				84F4E3EA2AF42CAD000DBEA7 /* MetronomeView.swift in Sources */,
+				84F4E3E62AF42045000DBEA7 /* CRUDView.swift in Sources */,
+				84F4E3FE2AF5CD8F000DBEA7 /* ShowView.swift in Sources */,
+				84F4E3F22AF57080000DBEA7 /* ReadView.swift in Sources */,
 				84F4E3D52AE36F8C000DBEA7 /* FIRFirestoreService.swift in Sources */,
+				84F4E3EE2AF57075000DBEA7 /* CreateView.swift in Sources */,
 				847F24452AE2E86E0007380F /* DatabaseUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,9 +413,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F4E3FF2AF5CD8F000DBEA7 /* ShowView.swift in Sources */,
+				84F4E3F32AF57080000DBEA7 /* ReadView.swift in Sources */,
+				84F4E3E72AF42045000DBEA7 /* CRUDView.swift in Sources */,
 				847F24462AE2E86E0007380F /* DatabaseUIView.swift in Sources */,
 				84F4E3D62AE36F8C000DBEA7 /* FIRFirestoreService.swift in Sources */,
+				84F4E3EB2AF42CAD000DBEA7 /* MetronomeView.swift in Sources */,
+				84F4E3EF2AF57075000DBEA7 /* CreateView.swift in Sources */,
 				847F241A2AD093A70007380F /* Xcode_DemoUITests.swift in Sources */,
+				84F4E3FB2AF57099000DBEA7 /* DeleteView.swift in Sources */,
+				84F4E3F72AF5708B000DBEA7 /* UpdateView.swift in Sources */,
 				847F241C2AD093A70007380F /* Xcode_DemoUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
